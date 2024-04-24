@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+
+</head>
+<body>
+
+    <h1>Форма регистрации</h1>
+
+    <form>
+        <p><label for="text">Ваше имя:</label></p>
+        <p><input type="text" id="text"><p>
+        <p><label for="text2">Ваша фамилия:</label></p>    
+        <p><input type="text" id="text2"><p>
+        <p><label for="number">Ваш сотовый:</label></p>     
+        <p><input type="number" id="number"><p>
+        <p>Ваши интересы:</p>
+        <p>
+            Книги<input type="checkbox">
+            Фильмы<input type="checkbox">
+            Видеоигры<input type="checkbox">
+            / Ваш родной язык:
+            Русский<input type="radio" name="interests">
+            Казахский<input type="radio" name="interests">
+            Английский<input type="radio" name="interests">
+        </p>
+        <p>
+            <label for="select">Ваша страна:</label>
+            <select id="select">
+                <option value="Россия">Россия</option>
+                <option value="Казахстан">Казахстан</option>
+                <option value="США">США</option>
+            </select>
+        </p>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+
+</body>
+</html>

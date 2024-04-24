@@ -1,0 +1,13 @@
+#li{
+    background-color: red;
+    color: white;
+}
+
+#a{
+    font-style: oblique;
+    background-color: lightgreen;
+    color: darkblue;
+}
+#img{
+    position: absolute; right: 40%;
+}
