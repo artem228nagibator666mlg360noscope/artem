@@ -1,0 +1,5 @@
+1) SELECT COUNT(*) FROM `workers`GROUP BY role
+2) SELECT SUM(salary) FROM `workers`
+3) SELECT MIN(salary) FROM `workers`
+4) SELECT AVG(salary) FROM `workers`
+5) SELECT MAX(salary) FROM workers GROUP BY office_id HAVING COUNT(office_id) > 2
