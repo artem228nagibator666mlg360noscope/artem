@@ -18,6 +18,15 @@ body {
     padding: 10px 40px;
 }
 
+.header-mobile {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
 .menu ul {
     list-style: none;
 }
@@ -27,12 +36,30 @@ body {
     margin-left: 10px;
 }
 
-.menu ul li a {
+.menu-mobile  ul  li {
+    margin-left: 10px;
+    color: rgb(217, 217, 4);
+}
+
+.menu ul li a, .menu-mobile ul li a{
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
+.menu-mobile ul li{
+    list-style: none;
+    font-size: 1.6em;
+    border-bottom: 3px solid #fff;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+ a:hover{
+    background-color: #e5714d;
+} 
 
 .menu ul li:nth-of-type(5) {
     margin-left: 50px;
@@ -52,6 +79,17 @@ body {
     margin-bottom: 12px;
     position: relative;
     right: 2px;
+}
+
+.circle-mobile {
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+    left:115px;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+ 
 }
 
 .slider {
@@ -139,3 +177,33 @@ body {
 .slider-dots div:first-child {
     background-color: white;
 }
+
+#burger-btn{
+    position: relative;
+    left: 50%;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: sienna;
+}
+
+
+
+
+
+/*MEDIA */
+@media screen and (min-width: 1125px) {
+    /*MOBILE*/
+    .header-mobile {
+      display: none;
+    }
+
+   
+  }
+
+  @media screen and (max-width: 1125px) {
+    /*DESCTOP*/
+    .header {
+            display: none;
+        }
+  }
