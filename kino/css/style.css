@@ -147,6 +147,39 @@ body {
     margin-bottom: 15px;
 }
 
+.h20{
+    justify-content: center;
+    margin-right: 1400px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.h21{
+    justify-content: center;
+    margin-right: 1200px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.h22{
+    justify-content: center;
+    margin-right: 1250px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+
+.h23{
+    justify-content: center;
+    margin-right: 1250px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
 .watch-now {
     display: inline-block;
     padding: 10px 20px;
@@ -217,12 +250,7 @@ body {
     margin-left: 5px;
 }
 
-.h20{
-    justify-content: center;
-    margin-right: 1400px;
-    display: flex;
-    margin-bottom: 30px;
-}
+
 .psam{
     display: flex;
     justify-content: center;
@@ -235,22 +263,6 @@ body {
     margin-left: 5px;
 }
 
-.h21{
-    justify-content: center;
-    margin-right: 1200px;
-    display: flex;
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-
-.h22{
-    justify-content: center;
-    margin-right: 1250px;
-    display: flex;
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-
 .ras {
     display: flex;
     justify-content: center;
@@ -261,14 +273,6 @@ body {
     width: 237;
     height: 300px;
     margin-left: 5px;
-}
-
-.h23{
-    justify-content: center;
-    margin-right: 1250px;
-    display: flex;
-    margin-top: 100px;
-    margin-bottom: 30px;
 }
 
 .ram {
@@ -435,3 +439,34 @@ h3{
     
     }
   }
+
+@media screen and (max-width: 1400px) {
+    .h20 {
+        justify-content: center;
+        display: flex;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 1400px;
+    }
+    .h21{
+        justify-content: center;
+        display: flex;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 1400px;
+    }
+    .h22{
+        justify-content: center;
+        display: flex;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 1400px;
+    }
+    .h23{
+        justify-content: center;
+        display: flex;
+        margin-bottom: 30px;
+        width: 100%;
+        max-width: 1400px;
+    }
+}
