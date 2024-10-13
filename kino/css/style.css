@@ -8,6 +8,7 @@
 
 body {
     font-family: "Ubuntu", sans-serif;
+    background-color: #000;
 }
 
 .header {
@@ -468,5 +469,46 @@ h3{
         margin-bottom: 30px;
         width: 100%;
         max-width: 1400px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer_links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stolb {
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    .stolb ul li {
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .footer_socialmedia {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .imgs {
+        padding-top: 15px;
+    }
+
+    .imgs a img {
+        width: 40px;
+        height: auto;
+    }
+
+    .rights {
+        padding-left: 0;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
